@@ -27,8 +27,8 @@ describe("index.js", () => {
     })
   })
 
-  describe("defines wrapAdjective function according to the specification", function() {
-    it("function exists", function() {
+  describe("defines wrapAdjective function according to the specification", 
+  function() {it("function exists", function() {
       expect(wrapAdjective).to.exist
     })
     
